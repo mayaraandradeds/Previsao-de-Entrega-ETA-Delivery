@@ -51,7 +51,7 @@ A escolha do modelo caiu sobre o **Random Forest Regressor**, um algoritmo de ap
 
 **O que foi feito:**
 * Configuração do algoritmo com 50 árvores de decisão (`n_estimators=50`) para balancear tempo de processamento e precisão.
-* **Avaliação de Desempenho:** Utilização da métrica **MAE (Erro Médio Absoluto)**. O modelo alcançou um erro médio de **[15,8] minutos**, indicando uma previsão altamente utilizável para ajustes de painel e alinhamento de SLA com o cliente final.
+* **Avaliação de Desempenho:** Utilização da métrica **MAE (Erro Médio Absoluto)**. O modelo alcançou um erro médio de **15,8 minutos**, indicando uma previsão altamente utilizável para ajustes de painel e alinhamento de SLA com o cliente final.
 
 ### Passo 6: Exportação para o Power BI
 O modelo matemático só gera valor se for acionável para o time de operações. 
